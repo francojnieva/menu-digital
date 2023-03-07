@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+    background-color: #363330;
+    color: white;
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        min-height: 100vh;
+        display: flex;
+    }
+
+    .burger {
+        width: 30%;
+        object-fit: cover;
+    }
+
+    .list {
+        width: 70%;
+    }
+
+    .description {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    .description p {
+        margin: .5rem 0rem;
+    }
+
+    .description span {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .description p {
+        font-size: 1.1rem;
+    }
+}
