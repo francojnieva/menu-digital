@@ -18,10 +18,7 @@
     color: white;
     font-weight: bold;
     transition: .3s;
-}
-
-.product:hover {
-    transform: translateY(.3rem);
+    box-shadow: 0 2px 5px 2px rgb(36, 36, 36);
 }
 
 .pizza {
@@ -73,16 +70,16 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 2rem 1rem;
-        gap: 1rem;
     }
 
     .product {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 45%;
+        width: 65%;
         height: 25vh;
         font-size: 1rem;
+        margin-bottom: 2rem;
     }
 
     .footer {
@@ -101,14 +98,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        gap: 2rem;
-    }
-    
     .product {
         width: 40%;
-        height: 18vh;
+        height: 20vh;
         font-size: 1.2rem;
+        margin: 0rem 2rem;
     }
 }
 
